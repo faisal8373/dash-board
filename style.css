@@ -6,7 +6,7 @@ body{
 main{
     
     height: 100vh;
-    background-color: rgb(182, 182, 236);
+    background-color: #C1CBE6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,17 +22,19 @@ board{
 .search{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 30px;
 }
 .content{
     width: 75%;
+    background-color: #F5F9FC;
 }
 .profile-bar{
     width: 20%;
     background-color: rgb(64, 219, 193);
 }
 .navigation-bar{
-    background-color: rgb(120, 120, 247);
+    background-color: #5A7DFD;
     width: 5%;
     height: 100%;
     border-radius: 25px 0px 0px 25px;
@@ -59,7 +61,7 @@ board{
     
 }
 button{
-    background-color: dodgerblue;
+    background-color: #5A7DFD;
   color: white;
   border: none;
   border-radius: 8px;
@@ -76,4 +78,19 @@ input{
 }
 .logout{
     margin-bottom: 20px;
+}
+.cloud{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 200px;
+    background-color: #FFFFFF;
+    
+    border-radius: 10px;
 }
