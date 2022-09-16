@@ -32,6 +32,7 @@ board{
 .profile-bar{
     width: 20%;
     background-color: rgb(64, 219, 193);
+    border-radius: 0px 25px 25px 0px;
 }
 .navigation-bar{
     background-color: #5A7DFD;
@@ -41,23 +42,40 @@ board{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-    align-items: center;
+   
+   
    
 }
 .icons{
-    height: 60%;
+    
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
-    align-items: center;
+    margin-top: 50%;
+    gap: 50px 0px;
+   
+    
 
+}
+.icons > div{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.image-nav{
+    
+    width: 50%;
+    height: auto;
+    opacity: .3;
+    
+    
 }
 .image{
     
-    width: 40px;
+    width: 15%;
     height: auto;
-    opacity: .3;
+    
     
 }
 button{
@@ -78,6 +96,8 @@ input{
 }
 .logout{
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 .cloud{
     margin-top: 5%;
@@ -87,10 +107,56 @@ input{
 }
 .card{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     width: 25%;
-    height: 200px;
+    height: auto;
     background-color: #FFFFFF;
-    
+    padding: 1% 1%;
+       
     border-radius: 10px;
+    flex-wrap: wrap;
+}
+.card-icon{
+    
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.heading{
+   align-self: flex-start;
+    padding: 1%;
+}
+.quick{
+    margin: 3% 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    text-decoration: none;
+    color:#A0B0FD;
+    font-size: 20px;
+    font-weight: bold;
+}
+.summary{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 17%;
+    height: auto;
+    background-color: #FFFFFF;
+    padding-top: 3%;
+    gap: 0px 100px;    
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.heading1{
+    align-self:center;
+    
 }
